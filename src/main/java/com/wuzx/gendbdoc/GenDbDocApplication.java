@@ -14,11 +14,9 @@ import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @SpringBootApplication
 public class GenDbDocApplication {
-
-
-
 
     public static void main(String[] args) {
         ConfigurableApplicationContext applicationContext = SpringApplication.run(GenDbDocApplication.class, args);
